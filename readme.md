@@ -11,4 +11,24 @@
 Una vez cambiados los make del cliente y el servidor se hace.
 
 `chmod u+x step.sh`
+
 `./step.sh`
+
+## Comandos a tener en cuenta para RPC.
+
+### Instalar RPC bind
+
+```
+apt install rpcbind
+```
+
+### Activar portmap
+```
+sudo rpcbind -wi
+```
+
+### Detener portmap
+
+```
+sudo service portmap stop
+```
