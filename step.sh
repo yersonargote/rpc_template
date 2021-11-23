@@ -11,13 +11,13 @@
 #SOURCES_SVC.h = gestionAnteproyectos.h
 
 # go to client/
-cd client/
+cd cliente/
 
 # compile client/
 make -f makeC
 
 # go back and go to server/
-cd ../server/
+cd ../servidor/
 
 # compile server/
 make -f makeS
